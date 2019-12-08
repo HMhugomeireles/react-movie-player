@@ -8,7 +8,10 @@ export default class SearchFrom extends Component {
   render() {
     return (
       <SearchDiv>
-        <H1 text={this.props.text} />
+        <form>
+          <input type="text" placeholder="Search movies"/>
+          <button type="submit" >Search</button>
+        </form>
       </SearchDiv>
     )
   }
